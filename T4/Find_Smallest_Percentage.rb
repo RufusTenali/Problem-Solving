@@ -17,7 +17,7 @@ def solution(array)
   end
 
     array[sindex] = smallest + sum_of_removed_values
-    puts array.inspect
+    p array
 end
 end
-solution([12,9,10])
+#solution([12,9,10])

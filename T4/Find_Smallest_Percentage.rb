@@ -1,3 +1,4 @@
+class ShareTheLove
 def solution(array)
     smallest = array.min
     sum_of_removed_values = 0
@@ -17,5 +18,6 @@ def solution(array)
 
     array[sindex] = smallest + sum_of_removed_values
     puts array.inspect
+end
 end
 solution([12,9,10])

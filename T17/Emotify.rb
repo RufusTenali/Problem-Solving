@@ -1,3 +1,4 @@
+class Emotiticons
 def emotify(string)
     emote = string[8..-1]
     case emote
@@ -15,5 +16,6 @@ def emotify(string)
        string.gsub("mad", ":p")
      end
   end
-  
-  print emotify("Make me grin")
+end
+
+#print emotify("Make me grin")

@@ -1,3 +1,4 @@
+class Delete 
 def delete_occurrences(arr, num)
   check = 0
   index = 0
@@ -12,9 +13,9 @@ def delete_occurrences(arr, num)
       check += 1
     end
   end
-  print arr
-  puts check
-  puts index
+  p arr
+  #puts check
+  #puts index
 end
-
-delete_occurrences([1,1,1,1],2)
+end
+#delete_occurrences([1,1,1,1],2)

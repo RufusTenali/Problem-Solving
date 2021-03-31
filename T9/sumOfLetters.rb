@@ -1,4 +1,17 @@
-class Solution
+require "minitest/autorun"
+describe "test" do 
+  it "test" do
+    assert_equal true, (sumOf("true"))
+    assert_equal true, (sumOf("iamking"))
+    assert_equal false, (sumOf("alexa"))
+    assert_equal false, (sumOf("astle"))
+    assert_equal true, (sumOf("tpain"))
+    assert_equal false, (sumOf("football"))
+    assert_equal false, (sumOf("minecraft"))
+  end
+end
+
+#class Solution
 def sumOf(string)
     sum = 0
     index = 0
@@ -13,11 +26,11 @@ def sumOf(string)
     index += 1
     end
     if sum % 2 == 0
-      print true
+      p true
     else
-      print false
+      p false
     end
 end
-end
+#end
   
 #sumOfLetters("iamking")

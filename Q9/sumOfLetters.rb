@@ -17,5 +17,5 @@ def sumOfLetters(string)
       print false
     end
 end
-  
-sumOfLetters("iamking")
+
+sumOfLetters("minecraft")

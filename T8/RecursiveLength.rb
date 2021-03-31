@@ -8,7 +8,7 @@ def recursiveLength(str)
       count += 1
       return 1 + recursiveLength(str.chop)
     end
-    p count
+    count
 end
 end
     
